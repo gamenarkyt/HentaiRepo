@@ -1,0 +1,17 @@
+.typographyroot {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.typography_normal {
+  font-size: var(--text-size-normal);
+}
+.typography_big {
+  font-size: var(--text-size-big);
+}
+.typography_header {
+  margin: 10px 0;
+  color: var(--accent);
+  font-size: var(--text-size-header);
+}

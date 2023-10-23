@@ -1,0 +1,16 @@
+.rootsidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-element);
+  transition: all 0.15s ease-in-out;
+}
+
+.sidebar_opened {
+  width: 20rem;
+  opacity: 1;
+}
+
+.sidebar_closed {
+  width: 0;
+  opacity: 0;
+}

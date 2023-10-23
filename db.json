@@ -1,0 +1,13 @@
+{
+  "posts": [
+    { "id": 1, "title": "Jujutsu Kaisen", "likes": 25125 },
+    { "id": 2, "title": "test 2", "likes": 5 },
+    { "id": 3, "title": "test 3", "likes": 15 },
+    { "id": 4, "title": "test 4", "likes": 35 },
+    { "id": 5, "title": "test 5", "likes": 445 },
+    { "id": 6, "title": "test 2", "likes": 5 },
+    { "id": 7, "title": "test 3", "likes": 15 },
+    { "id": 8, "title": "test 4", "likes": 35 },
+    { "id": 9, "title": "test 5", "likes": 445 }
+  ]
+}

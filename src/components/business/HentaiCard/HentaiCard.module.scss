@@ -1,0 +1,47 @@
+.hentaicard {
+  display: flex;
+  flex-direction: column;
+
+  border: var(--border);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  cursor: pointer;
+
+  .hentaiposter {
+    width: 100%;
+    height: 18rem;
+  }
+
+  .hentaiinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 2px;
+
+    .hentainame {
+      color: var(--text);
+      font-size: var(--text-size-big);
+      font-weight: bold;
+    }
+    .hentaiauthor {
+      color: var(--text2);
+    }
+  }
+  .hentaistats {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+
+    .hentailikes {
+      gap: 3px;
+      font-weight: bold;
+
+      .likeicon {
+        color: var(--accent);
+      }
+    }
+  }
+}

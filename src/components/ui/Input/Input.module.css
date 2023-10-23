@@ -1,0 +1,25 @@
+.yuiinput {
+  width: fit-content;
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+
+  color: var(--text);
+  border: var(--border2);
+  border-radius: var(--border-radius2);
+
+  &:focus-within {
+    border: var(--border-focus);
+  }
+}
+
+.originalinput {
+  border: none;
+  background-color: transparent;
+  outline: none;
+
+  &:focus-visible {
+    border: none;
+  }
+}
