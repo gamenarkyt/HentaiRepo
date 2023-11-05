@@ -1,0 +1,47 @@
+.watchpage {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0.5rem 5%;
+  padding: 5%;
+  // background-color: red;
+
+  .hentaiinfo {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 3rem;
+    // background-color: tan;
+
+    .poster {
+      width: 15rem;
+      height: 20rem;
+      aspect-ratio: 9/16;
+    }
+
+    .information {
+      width: 30rem;
+      display: flex;
+      justify-content: space-between;
+
+      background-color: var(--background-element);
+
+      .info {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .tools {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .hentaidescription {
+    width: 100%;
+    background-color: aquamarine;
+  }
+}

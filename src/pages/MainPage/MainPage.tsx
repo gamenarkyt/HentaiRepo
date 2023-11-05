@@ -3,6 +3,7 @@ import styles from "./MainPage.module.scss";
 import axios from "axios";
 import { Typography } from "@/components/ui/Typography/Typography";
 import { HentaiCard } from "@/components/business/HentaiCard/HentaiCard";
+import { Link } from "react-router-dom";
 
 interface IPost {
   id: number;
@@ -26,7 +27,9 @@ const MainPage = () => {
   return (
     <div className={styles.mainpage}>
       {!posts.length && <span>Posts loading...</span>}
-      <Typography variant="header">Недавно обновлённые</Typography>
+      <Typography variant="header" Component={Link}>
+        Недавно обновлённые
+      </Typography>
       <div className={styles.posts}>
         {posts.map((hentai) => {
           return (
